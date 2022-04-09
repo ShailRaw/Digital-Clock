@@ -9,7 +9,7 @@ setInterval(() => {
   let ampm = hour >= 12 ? 'PM' : 'AM';
   let dayNames = ["SUN", "MON", "TUE", "WED", "THU","FRI", "SAT"];
   let months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
-  let id = ["#day","#hour","#minute", "#second", "#ampm","#year", "#month" ];
+
   hour = hour % 12;
   hour = hour ? hour : '12';
   hour = hour < 10 ? '0' + hour : hour;
